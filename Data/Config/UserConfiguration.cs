@@ -16,11 +16,10 @@ namespace Data.Config
             builder.HasKey(e => e.Id);
             builder.Property(e => e.Id).ValueGeneratedOnAdd();
 
-            builder.Property(e => e.AdObjId).HasMaxLength(128);
-            builder.Property(e => e.Email).HasMaxLength(100);
-            builder.Property(e => e.FirstName).HasMaxLength(50);
-            builder.Property(e => e.LastName).HasMaxLength(50);
-            builder.Property(e => e.ProfileImageUrl).HasMaxLength(512);
+            builder.Property(e => e.Email).HasMaxLength(100).IsRequired();
+            builder.Property(e => e.FirstName).HasMaxLength(50).IsRequired();
+            builder.Property(e => e.Phone).HasMaxLength(50).IsRequired();
+            builder.Property(e => e.LastName).HasMaxLength(50).IsRequired();
         }
     }
 }

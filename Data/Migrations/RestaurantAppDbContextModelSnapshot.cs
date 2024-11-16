@@ -22,7 +22,7 @@ namespace Data.Migrations
 
             SqlServerModelBuilderExtensions.UseIdentityColumns(modelBuilder);
 
-            modelBuilder.Entity("Core.Entities.DinningTable", b =>
+            modelBuilder.Entity("Core.Entities.DiningTable", b =>
                 {
                     b.Property<int>("Id")
                         .ValueGeneratedOnAdd()
@@ -35,10 +35,6 @@ namespace Data.Migrations
 
                     b.Property<int>("Capacity")
                         .HasColumnType("int");
-
-                    b.Property<string>("TableName")
-                        .HasMaxLength(50)
-                        .HasColumnType("nvarchar(50)");
 
                     b.HasKey("Id");
 
@@ -56,15 +52,11 @@ namespace Data.Migrations
 
                     SqlServerPropertyBuilderExtensions.UseIdentityColumn(b.Property<int>("Id"));
 
-                    b.Property<bool>("ReminderSent")
-                        .HasColumnType("bit");
+                    b.Property<int>("DiningTableId")
+                        .HasColumnType("int");
 
                     b.Property<DateTime>("ReservationDate")
                         .HasColumnType("datetime2");
-
-                    b.Property<string>("ReservationStatus")
-                        .IsRequired()
-                        .HasColumnType("nvarchar(max)");
 
                     b.Property<int>("TimeSlotId")
                         .HasColumnType("int");
@@ -73,6 +65,8 @@ namespace Data.Migrations
                         .HasColumnType("int");
 
                     b.HasKey("Id");
+
+                    b.HasIndex("DiningTableId");
 
                     b.HasIndex("TimeSlotId")
                         .HasDatabaseName("IX_Reservations_TimeSlotId");
@@ -91,27 +85,10 @@ namespace Data.Migrations
 
                     SqlServerPropertyBuilderExtensions.UseIdentityColumn(b.Property<int>("Id"));
 
-                    b.Property<string>("Address")
-                        .IsRequired()
-                        .HasMaxLength(200)
-                        .HasColumnType("nvarchar(200)");
-
-                    b.Property<string>("Email")
-                        .HasMaxLength(50)
-                        .HasColumnType("nvarchar(50)");
-
-                    b.Property<string>("ImageUrl")
-                        .HasMaxLength(100)
-                        .HasColumnType("nvarchar(100)");
-
                     b.Property<string>("Name")
                         .IsRequired()
                         .HasMaxLength(50)
                         .HasColumnType("nvarchar(50)");
-
-                    b.Property<string>("Phone")
-                        .HasMaxLength(20)
-                        .HasColumnType("nvarchar(20)");
 
                     b.HasKey("Id");
 
@@ -167,24 +144,13 @@ namespace Data.Migrations
 
                     SqlServerPropertyBuilderExtensions.UseIdentityColumn(b.Property<int>("Id"));
 
-                    b.Property<int>("DinningTableId")
-                        .HasColumnType("int");
-
-                    b.Property<string>("MealType")
-                        .IsRequired()
-                        .HasColumnType("nvarchar(max)");
-
-                    b.Property<DateTime>("ReservationDay")
+                    b.Property<DateTime>("EndTime")
                         .HasColumnType("datetime2");
 
-                    b.Property<string>("TableStatus")
-                        .IsRequired()
-                        .HasColumnType("nvarchar(max)");
+                    b.Property<DateTime>("StartTime")
+                        .HasColumnType("datetime2");
 
                     b.HasKey("Id");
-
-                    b.HasIndex("DinningTableId")
-                        .HasDatabaseName("IX_TimeSlots_DiningTableId");
 
                     b.ToTable("TimeSlots");
                 });
@@ -196,10 +162,6 @@ namespace Data.Migrations
                         .HasColumnType("int");
 
                     SqlServerPropertyBuilderExtensions.UseIdentityColumn(b.Property<int>("Id"));
-
-                    b.Property<string>("AdObjId")
-                        .HasMaxLength(128)
-                        .HasColumnType("nvarchar(128)");
 
                     b.Property<DateTime>("CreatedDate")
                         .HasColumnType("datetime2");
@@ -219,9 +181,13 @@ namespace Data.Migrations
                         .HasMaxLength(50)
                         .HasColumnType("nvarchar(50)");
 
-                    b.Property<string>("ProfileImageUrl")
-                        .HasMaxLength(512)
-                        .HasColumnType("nvarchar(512)");
+                    b.Property<string>("Phone")
+                        .IsRequired()
+                        .HasMaxLength(50)
+                        .HasColumnType("nvarchar(50)");
+
+                    b.Property<byte[]>("ProfileImage")
+                        .HasColumnType("varbinary(max)");
 
                     b.Property<DateTime>("UpdatedDate")
                         .HasColumnType("datetime2");
@@ -231,7 +197,7 @@ namespace Data.Migrations
                     b.ToTable("Users");
                 });
 
-            modelBuilder.Entity("Core.Entities.DinningTable", b =>
+            modelBuilder.Entity("Core.Entities.DiningTable", b =>
                 {
                     b.HasOne("Core.Entities.RestaurantBranch", "Branch")
                         .WithMany("DinningTables")
@@ -245,6 +211,12 @@ namespace Data.Migrations
 
             modelBuilder.Entity("Core.Entities.Reservation", b =>
                 {
+                    b.HasOne("Core.Entities.DiningTable", "DiningTable")
+                        .WithMany("Reservations")
+                        .HasForeignKey("DiningTableId")
+                        .OnDelete(DeleteBehavior.Cascade)
+                        .IsRequired();
+
                     b.HasOne("Core.Entities.TimeSlot", "TimeSlot")
                         .WithMany("Reservations")
                         .HasForeignKey("TimeSlotId")
@@ -256,6 +228,8 @@ namespace Data.Migrations
                         .HasForeignKey("UserId")
                         .OnDelete(DeleteBehavior.Cascade)
                         .IsRequired();
+
+                    b.Navigation("DiningTable");
 
                     b.Navigation("TimeSlot");
 
@@ -273,21 +247,9 @@ namespace Data.Migrations
                     b.Navigation("Restaurant");
                 });
 
-            modelBuilder.Entity("Core.Entities.TimeSlot", b =>
+            modelBuilder.Entity("Core.Entities.DiningTable", b =>
                 {
-                    b.HasOne("Core.Entities.DinningTable", "DinningTable")
-                        .WithMany("TimeSlots")
-                        .HasForeignKey("DinningTableId")
-                        .OnDelete(DeleteBehavior.Cascade)
-                        .IsRequired()
-                        .HasConstraintName("FK_TimeSlots_DiningTables_DiningTableId");
-
-                    b.Navigation("DinningTable");
-                });
-
-            modelBuilder.Entity("Core.Entities.DinningTable", b =>
-                {
-                    b.Navigation("TimeSlots");
+                    b.Navigation("Reservations");
                 });
 
             modelBuilder.Entity("Core.Entities.Restaurant", b =>

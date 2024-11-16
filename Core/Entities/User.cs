@@ -3,7 +3,7 @@ using System.Collections.Generic;
 
 namespace Core.Entities;
 
-public partial class User
+public  class User
 {
     public int Id { get; set; }
 
@@ -12,10 +12,9 @@ public partial class User
     public string LastName { get; set; } = null!;
 
     public string Email { get; set; } = null!;
+    public string Phone { get; set; } = null!;
 
-    public string? AdObjId { get; set; }
-
-    public string? ProfileImageUrl { get; set; }
+    public byte[]? ProfileImage { get; set; }=null;
 
     public DateTime CreatedDate { get; set; }
 

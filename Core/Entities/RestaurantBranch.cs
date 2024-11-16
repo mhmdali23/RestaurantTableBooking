@@ -3,7 +3,7 @@ using System.Collections.Generic;
 
 namespace Core.Entities;
 
-public partial class RestaurantBranch
+public  class RestaurantBranch
 {
     public int Id { get; set; }
 
@@ -19,7 +19,7 @@ public partial class RestaurantBranch
 
     public string? ImageUrl { get; set; }
 
-    public virtual ICollection<DinningTable> DinningTables { get; set; } = new List<DinningTable>();
+    public virtual ICollection<DiningTable> DinningTables { get; set; } = new List<DiningTable>();
 
     public virtual Restaurant Restaurant { get; set; } = null!;
 }

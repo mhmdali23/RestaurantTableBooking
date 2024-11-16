@@ -15,11 +15,7 @@ namespace Data.Config
         {
             builder.HasKey(r => r.Id);
             builder.Property(r=>r.Id).ValueGeneratedOnAdd();
-            builder.Property(e => e.Address).HasMaxLength(200);
-            builder.Property(e => e.Email).HasMaxLength(50);
-            builder.Property(e => e.ImageUrl).HasMaxLength(100);
             builder.Property(e => e.Name).HasMaxLength(50);
-            builder.Property(e => e.Phone).HasMaxLength(20);
         }
     }
 }

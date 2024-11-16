@@ -6,6 +6,6 @@ using System.Threading.Tasks;
 
 namespace Core.DTOS
 {
-   public record TimeSlotDTO(int Id,int DinningTableId,DateTime ReservationDay, string MealType, string TableStatus);
+   public record TimeSlotDTO(int Id,int DinningTableId);
 
 }

@@ -1,0 +1,154 @@
+[
+  {
+    "RestaurantId": 1,
+    "Name": "Branch A",
+    "Address": "456 Oak Avenue",
+    "Phone": "555-789-1234",
+    "Email": "branchA@awesomerestaurant.com",
+    "ImageUrl": "https://www.awesomerestaurant.com/branchA.jpg"
+  },
+  {
+    "RestaurantId": 1,
+    "Name": "Branch B",
+    "Address": "789 Oak Drive",
+    "Phone": "555-222-3333",
+    "Email": "branchB@awesomerestaurant.com",
+    "ImageUrl": "https://www.awesomerestaurant.com/branchB.jpg"
+  },
+  {
+    "RestaurantId": 1,
+    "Name": "Branch C",
+    "Address": "789 Maple Lane",
+    "Phone": "555-444-5555",
+    "Email": "branchC@awesomerestaurant.com",
+    "ImageUrl": "https://www.awesomerestaurant.com/branchC.jpg"
+  },
+  {
+    "RestaurantId": 1,
+    "Name": "Branch D",
+    "Address": "123 Elm Street",
+    "Phone": "555-666-7777",
+    "Email": "branchD@awesomerestaurant.com",
+    "ImageUrl": "https://www.awesomerestaurant.com/branchD.jpg"
+  },
+  {
+    "RestaurantId": 1,
+    "Name": "Branch E",
+    "Address": "987 Pine Road",
+    "Phone": "555-888-9999",
+    "Email": "branchE@awesomerestaurant.com",
+    "ImageUrl": "https://www.awesomerestaurant.com/branchE.jpg"
+  },
+  {
+    "RestaurantId": 1,
+    "Name": "Downtown Branch",
+    "Address": "789 Main Street",
+    "Phone": "555-111-2222",
+    "Email": "downtown@awesomerestaurant.com",
+    "ImageUrl": "https://www.awesomerestaurant.com/downtown.jpg"
+  },
+  {
+    "RestaurantId": 1,
+    "Name": "Eastside Branch",
+    "Address": "456 Park Avenue",
+    "Phone": "555-333-4444",
+    "Email": "eastside@awesomerestaurant.com",
+    "ImageUrl": "https://www.awesomerestaurant.com/eastside.jpg"
+  },
+  {
+    "RestaurantId": 2,
+    "Name": "City Center Branch",
+    "Address": "123 Broadway Street",
+    "Phone": "555-555-5555",
+    "Email": "citycenter@deliciousdiner.com",
+    "ImageUrl": "https://www.deliciousdiner.com/citycenter.jpg"
+  },
+  {
+    "RestaurantId": 2,
+    "Name": "Westend Branch",
+    "Address": "789 Market Road",
+    "Phone": "555-777-7777",
+    "Email": "westend@deliciousdiner.com",
+    "ImageUrl": "https://www.deliciousdiner.com/westend.jpg"
+  },
+  {
+    "RestaurantId": 3,
+    "Name": "Main Square Branch",
+    "Address": "321 Park Lane",
+    "Phone": "555-999-9999",
+    "Email": "mainsquare@tastybistro.com",
+    "ImageUrl": "https://www.tastybistro.com/mainsquare.jpg"
+  },
+  {
+    "RestaurantId": 3,
+    "Name": "Northside Branch",
+    "Address": "987 Maple Avenue",
+    "Phone": "555-222-3333",
+    "Email": "northside@tastybistro.com",
+    "ImageUrl": "https://www.tastybistro.com/northside.jpg"
+  },
+  {
+    "RestaurantId": 4,
+    "Name": "Gourmet Plaza Branch",
+    "Address": "654 Oak Lane",
+    "Phone": "555-444-4444",
+    "Email": "gourmetplaza@gourmetgrille.com",
+    "ImageUrl": "https://www.gourmetgrille.com/gourmetplaza.jpg"
+  },
+  {
+    "RestaurantId": 4,
+    "Name": "Southside Branch",
+    "Address": "321 Elm Road",
+    "Phone": "555-666-6666",
+    "Email": "southside@gourmetgrille.com",
+    "ImageUrl": "https://www.gourmetgrille.com/southside.jpg"
+  },
+  {
+    "RestaurantId": 5,
+    "Name": "Fusion Central Branch",
+    "Address": "789 Market Street",
+    "Phone": "555-888-8888",
+    "Email": "fusioncentral@cafefusion.com",
+    "ImageUrl": "https://www.cafefusion.com/fusioncentral.jpg"
+  },
+  {
+    "RestaurantId": 5,
+    "Name": "Seaside Branch",
+    "Address": "456 Beach Road",
+    "Phone": "555-111-1111",
+    "Email": "seaside@cafefusion.com",
+    "ImageUrl": "https://www.cafefusion.com/seaside.jpg"
+  },
+  {
+    "RestaurantId": 6,
+    "Name": "Steakhouse Heights Branch",
+    "Address": "123 Hill Street",
+    "Phone": "555-111-0000",
+    "Email": "steakhouseheights@sizzlingsteakhouse.com",
+    "ImageUrl": "https://www.sizzlingsteakhouse.com/steakhouseheights.jpg"
+  },
+  {
+    "RestaurantId": 6,
+    "Name": "Westside Branch",
+    "Address": "789 Sunset Road",
+    "Phone": "555-222-1111",
+    "Email": "westside@sizzlingsteakhouse.com",
+    "ImageUrl": "https://www.sizzlingsteakhouse.com/westside.jpg"
+  },
+  {
+    "RestaurantId": 7,
+    "Name": "Paradise Park Branch",
+    "Address": "654 Garden Avenue",
+    "Phone": "555-333-2222",
+    "Email": "paradisepark@pastaparadise.com",
+    "ImageUrl": "https://www.pastaparadise.com/paradisepark.jpg"
+  },
+  {
+    "RestaurantId": 7,
+    "Name": "Central Square Branch",
+    "Address": "987 Center Street",
+    "Phone": "555-444-3333",
+    "Email": "centralsquare@pastaparadise.com",
+    "ImageUrl": "https://www.pastaparadise.com/centralsquare.jpg"
+  }
+]

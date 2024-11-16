@@ -16,12 +16,6 @@ namespace Data.Config
             builder.HasKey(e => e.Id);
             builder.Property(e => e.Id).ValueGeneratedOnAdd();
 
-            builder.HasIndex(e => e.DinningTableId).HasDatabaseName("IX_TimeSlots_DiningTableId");
-
-            builder.HasOne(d => d.DinningTable)
-                .WithMany(p => p.TimeSlots)
-                .HasForeignKey(d => d.DinningTableId)
-                .HasConstraintName("FK_TimeSlots_DiningTables_DiningTableId");
         }
     }
 }

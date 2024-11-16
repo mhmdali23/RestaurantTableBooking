@@ -9,3 +9,10 @@ D:\Aly\RestaurantApp\Restaurant\Service\obj\Debug\net8.0\Service.dll
 D:\Aly\RestaurantApp\Restaurant\Service\obj\Debug\net8.0\refint\Service.dll
 D:\Aly\RestaurantApp\Restaurant\Service\obj\Debug\net8.0\Service.pdb
 D:\Aly\RestaurantApp\Restaurant\Service\obj\Debug\net8.0\ref\Service.dll
+D:\Aly\RestaurantApp\Restaurant\Service\bin\Debug\net8.0\Core.dll
+D:\Aly\RestaurantApp\Restaurant\Service\bin\Debug\net8.0\Core.pdb
+D:\Aly\RestaurantApp\Restaurant\Service\obj\Debug\net8.0\Service.csproj.AssemblyReference.cache
+D:\Aly\RestaurantApp\Restaurant\Service\obj\Debug\net8.0\Service.sourcelink.json
+D:\Aly\RestaurantApp\Restaurant\Service\obj\Debug\net8.0\Service.csproj.Up2Date
+D:\Aly\RestaurantApp\Restaurant\Service\bin\Debug\net8.0\Data.dll
+D:\Aly\RestaurantApp\Restaurant\Service\bin\Debug\net8.0\Data.pdb

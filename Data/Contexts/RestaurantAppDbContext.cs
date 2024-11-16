@@ -4,7 +4,7 @@ using Microsoft.EntityFrameworkCore;
 
 namespace Data.Contexts;
 
-public partial class RestaurantAppDbContext : DbContext
+public class RestaurantAppDbContext : DbContext
 {
     public RestaurantAppDbContext()
     {
@@ -15,17 +15,17 @@ public partial class RestaurantAppDbContext : DbContext
     {
     }
 
-    public virtual DbSet<DinningTable> DinningTables { get; set; }
+    public  DbSet<DiningTable> DinningTables { get; set; }
 
-    public virtual DbSet<Reservation> Reservations { get; set; }
+    public  DbSet<Reservation> Reservations { get; set; }
 
-    public virtual DbSet<Restaurant> Restaurants { get; set; }
+    public  DbSet<Restaurant> Restaurants { get; set; }
 
-    public virtual DbSet<RestaurantBranch> RestaurantBranches { get; set; }
+    public  DbSet<RestaurantBranch> RestaurantBranches { get; set; }
 
-    public virtual DbSet<TimeSlot> TimeSlots { get; set; }
+    public  DbSet<TimeSlot> TimeSlots { get; set; }
 
-    public virtual DbSet<User> Users { get; set; }
+    public  DbSet<User> Users { get; set; }
 
     protected override void OnModelCreating(ModelBuilder modelBuilder)
     {

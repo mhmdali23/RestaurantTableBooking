@@ -24,10 +24,10 @@ namespace API.Controllers
             return Ok(restaurants);
         } 
         
-        [HttpGet("{id}")]
-        public async Task<ActionResult<RestaurantBranchDTO>> GetRestaurantBranchByRestaurantIdAsync(int id)
+        [HttpGet("restaurants/{restaurantId}")]
+        public async Task<ActionResult<RestaurantBranchDTO>> GetRestaurantBranchByRestaurantIdAsync(int restaurantId)
         {
-            var restaurant = await _restaurantService.GetRestaurantByIdAsync(id);
+            var restaurant = await _restaurantService.GetRestaurantBranchByRestaurantIdAsync(restaurantId);
             return Ok(restaurant);
         }
 

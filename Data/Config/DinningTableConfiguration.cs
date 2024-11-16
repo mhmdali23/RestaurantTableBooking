@@ -9,16 +9,15 @@ using System.Threading.Tasks;
 
 namespace Data.Config
 {
-    public class DinningTableConfiguration : IEntityTypeConfiguration<DinningTable>
+    public class DinningTableConfiguration : IEntityTypeConfiguration<DiningTable>
     {
-        public void Configure(EntityTypeBuilder<DinningTable> builder)
+        public void Configure(EntityTypeBuilder<DiningTable> builder)
         {
             builder.HasKey(e => e.Id); 
             builder.Property(e => e.Id).ValueGeneratedOnAdd();
 
             builder.HasIndex(e => e.BranchId).HasDatabaseName("IX_DiningTables_RestaurantBranchId");
 
-            builder.Property(e => e.TableName).HasMaxLength(50);
 
             builder.HasOne(d => d.Branch)
                 .WithMany(p => p.DinningTables)

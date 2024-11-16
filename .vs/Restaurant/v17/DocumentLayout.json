@@ -1,0 +1,392 @@
+{
+  "Version": 1,
+  "WorkspaceRootPath": "D:\\Aly\\RestaurantApp\\Restaurant\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{04725BB2-A4D1-46F0-AF68-A8C3EBAF90A8}|API\\API.csproj|d:\\aly\\restaurantapp\\restaurant\\api\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{04725BB2-A4D1-46F0-AF68-A8C3EBAF90A8}|API\\API.csproj|solutionrelative:api\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{3086599A-E2AE-48DF-AF44-5AC6F0B34022}|Service\\Service.csproj|d:\\aly\\restaurantapp\\restaurant\\service\\services\\restaurantservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{3086599A-E2AE-48DF-AF44-5AC6F0B34022}|Service\\Service.csproj|solutionrelative:service\\services\\restaurantservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{3086599A-E2AE-48DF-AF44-5AC6F0B34022}|Service\\Service.csproj|d:\\aly\\restaurantapp\\restaurant\\service\\services\\seedservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{3086599A-E2AE-48DF-AF44-5AC6F0B34022}|Service\\Service.csproj|solutionrelative:service\\services\\seedservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{133C58C4-0939-45F7-A11D-B00879C747CA}|Core\\Core.csproj|d:\\aly\\restaurantapp\\restaurant\\core\\dtos\\diningtabledto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{133C58C4-0939-45F7-A11D-B00879C747CA}|Core\\Core.csproj|solutionrelative:core\\dtos\\diningtabledto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{133C58C4-0939-45F7-A11D-B00879C747CA}|Core\\Core.csproj|d:\\aly\\restaurantapp\\restaurant\\core\\dtos\\restaurantdto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{133C58C4-0939-45F7-A11D-B00879C747CA}|Core\\Core.csproj|solutionrelative:core\\dtos\\restaurantdto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{133C58C4-0939-45F7-A11D-B00879C747CA}|Core\\Core.csproj|d:\\aly\\restaurantapp\\restaurant\\core\\dtos\\timeslotdto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{133C58C4-0939-45F7-A11D-B00879C747CA}|Core\\Core.csproj|solutionrelative:core\\dtos\\timeslotdto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{9325D1DD-0393-4933-A888-7F98FFB164F6}|Data\\Data.csproj|d:\\aly\\restaurantapp\\restaurant\\data\\seeddata\\restaurant_branches.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}",
+      "RelativeMoniker": "D:0:0:{9325D1DD-0393-4933-A888-7F98FFB164F6}|Data\\Data.csproj|solutionrelative:data\\seeddata\\restaurant_branches.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{9325D1DD-0393-4933-A888-7F98FFB164F6}|Data\\Data.csproj|d:\\aly\\restaurantapp\\restaurant\\data\\seeddata\\restaurants.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}",
+      "RelativeMoniker": "D:0:0:{9325D1DD-0393-4933-A888-7F98FFB164F6}|Data\\Data.csproj|solutionrelative:data\\seeddata\\restaurants.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{133C58C4-0939-45F7-A11D-B00879C747CA}|Core\\Core.csproj|d:\\aly\\restaurantapp\\restaurant\\core\\entities\\restaurant.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{133C58C4-0939-45F7-A11D-B00879C747CA}|Core\\Core.csproj|solutionrelative:core\\entities\\restaurant.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{9325D1DD-0393-4933-A888-7F98FFB164F6}|Data\\Data.csproj|d:\\aly\\restaurantapp\\restaurant\\data\\contexts\\restaurantappdbcontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{9325D1DD-0393-4933-A888-7F98FFB164F6}|Data\\Data.csproj|solutionrelative:data\\contexts\\restaurantappdbcontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{9325D1DD-0393-4933-A888-7F98FFB164F6}|Data\\Data.csproj|d:\\aly\\restaurantapp\\restaurant\\data\\config\\userconfiguration.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{9325D1DD-0393-4933-A888-7F98FFB164F6}|Data\\Data.csproj|solutionrelative:data\\config\\userconfiguration.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{9325D1DD-0393-4933-A888-7F98FFB164F6}|Data\\Data.csproj|d:\\aly\\restaurantapp\\restaurant\\data\\config\\timeslotconfiguration.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{9325D1DD-0393-4933-A888-7F98FFB164F6}|Data\\Data.csproj|solutionrelative:data\\config\\timeslotconfiguration.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{9325D1DD-0393-4933-A888-7F98FFB164F6}|Data\\Data.csproj|d:\\aly\\restaurantapp\\restaurant\\data\\config\\restaurantconfiguration.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{9325D1DD-0393-4933-A888-7F98FFB164F6}|Data\\Data.csproj|solutionrelative:data\\config\\restaurantconfiguration.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{133C58C4-0939-45F7-A11D-B00879C747CA}|Core\\Core.csproj|d:\\aly\\restaurantapp\\restaurant\\core\\entities\\timeslot.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{133C58C4-0939-45F7-A11D-B00879C747CA}|Core\\Core.csproj|solutionrelative:core\\entities\\timeslot.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{9325D1DD-0393-4933-A888-7F98FFB164F6}|Data\\Data.csproj|d:\\aly\\restaurantapp\\restaurant\\data\\config\\dinningtableconfiguration.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{9325D1DD-0393-4933-A888-7F98FFB164F6}|Data\\Data.csproj|solutionrelative:data\\config\\dinningtableconfiguration.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{133C58C4-0939-45F7-A11D-B00879C747CA}|Core\\Core.csproj|d:\\aly\\restaurantapp\\restaurant\\core\\entities\\diningtable.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{133C58C4-0939-45F7-A11D-B00879C747CA}|Core\\Core.csproj|solutionrelative:core\\entities\\diningtable.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{133C58C4-0939-45F7-A11D-B00879C747CA}|Core\\Core.csproj|d:\\aly\\restaurantapp\\restaurant\\core\\entities\\reservation.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{133C58C4-0939-45F7-A11D-B00879C747CA}|Core\\Core.csproj|solutionrelative:core\\entities\\reservation.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{133C58C4-0939-45F7-A11D-B00879C747CA}|Core\\Core.csproj|d:\\aly\\restaurantapp\\restaurant\\core\\entities\\user.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{133C58C4-0939-45F7-A11D-B00879C747CA}|Core\\Core.csproj|solutionrelative:core\\entities\\user.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{133C58C4-0939-45F7-A11D-B00879C747CA}|Core\\Core.csproj|d:\\aly\\restaurantapp\\restaurant\\core\\entities\\restaurantbranch.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{133C58C4-0939-45F7-A11D-B00879C747CA}|Core\\Core.csproj|solutionrelative:core\\entities\\restaurantbranch.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{04725BB2-A4D1-46F0-AF68-A8C3EBAF90A8}|API\\API.csproj|d:\\aly\\restaurantapp\\restaurant\\api\\appsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}",
+      "RelativeMoniker": "D:0:0:{04725BB2-A4D1-46F0-AF68-A8C3EBAF90A8}|API\\API.csproj|solutionrelative:api\\appsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{04725BB2-A4D1-46F0-AF68-A8C3EBAF90A8}|API\\API.csproj|d:\\aly\\restaurantapp\\restaurant\\api\\appsettings.development.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}",
+      "RelativeMoniker": "D:0:0:{04725BB2-A4D1-46F0-AF68-A8C3EBAF90A8}|API\\API.csproj|solutionrelative:api\\appsettings.development.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{04725BB2-A4D1-46F0-AF68-A8C3EBAF90A8}|API\\API.csproj|d:\\aly\\restaurantapp\\restaurant\\api\\middlewares\\exceptionhandlingmiddleware.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{04725BB2-A4D1-46F0-AF68-A8C3EBAF90A8}|API\\API.csproj|solutionrelative:api\\middlewares\\exceptionhandlingmiddleware.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    }
+  ],
+  "DocumentGroupContainers": [
+    {
+      "Orientation": 0,
+      "VerticalTabListWidth": 256,
+      "DocumentGroups": [
+        {
+          "DockedWidth": 200,
+          "SelectedChildIndex": 8,
+          "Children": [
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{d78612c7-9962-4b83-95d9-268046dad23a}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{34e76e81-ee4a-11d0-ae2e-00a0c90fffc3}"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 5,
+              "Title": "TimeSlotDTO.cs",
+              "DocumentMoniker": "D:\\Aly\\RestaurantApp\\Restaurant\\Core\\DTOS\\TimeSlotDTO.cs",
+              "RelativeDocumentMoniker": "Core\\DTOS\\TimeSlotDTO.cs",
+              "ToolTip": "D:\\Aly\\RestaurantApp\\Restaurant\\Core\\DTOS\\TimeSlotDTO.cs",
+              "RelativeToolTip": "Core\\DTOS\\TimeSlotDTO.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAgAAAA4AAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-11-16T08:22:36.9Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "RestaurantDTO.cs",
+              "DocumentMoniker": "D:\\Aly\\RestaurantApp\\Restaurant\\Core\\DTOS\\RestaurantDTO.cs",
+              "RelativeDocumentMoniker": "Core\\DTOS\\RestaurantDTO.cs",
+              "ToolTip": "D:\\Aly\\RestaurantApp\\Restaurant\\Core\\DTOS\\RestaurantDTO.cs",
+              "RelativeToolTip": "Core\\DTOS\\RestaurantDTO.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAIAAAAzAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-11-16T08:22:27.85Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "RestaurantService.cs",
+              "DocumentMoniker": "D:\\Aly\\RestaurantApp\\Restaurant\\Service\\Services\\RestaurantService.cs",
+              "RelativeDocumentMoniker": "Service\\Services\\RestaurantService.cs",
+              "ToolTip": "D:\\Aly\\RestaurantApp\\Restaurant\\Service\\Services\\RestaurantService.cs",
+              "RelativeToolTip": "Service\\Services\\RestaurantService.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAkAAABNAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-11-16T08:22:02.662Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 7,
+              "Title": "restaurants.json",
+              "DocumentMoniker": "D:\\Aly\\RestaurantApp\\Restaurant\\Data\\SeedData\\restaurants.json",
+              "RelativeDocumentMoniker": "Data\\SeedData\\restaurants.json",
+              "ToolTip": "D:\\Aly\\RestaurantApp\\Restaurant\\Data\\SeedData\\restaurants.json",
+              "RelativeToolTip": "Data\\SeedData\\restaurants.json",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAUAAAAdAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001642|",
+              "WhenOpened": "2024-11-16T08:19:04.54Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "SeedService.cs",
+              "DocumentMoniker": "D:\\Aly\\RestaurantApp\\Restaurant\\Service\\Services\\SeedService.cs",
+              "RelativeDocumentMoniker": "Service\\Services\\SeedService.cs",
+              "ToolTip": "D:\\Aly\\RestaurantApp\\Restaurant\\Service\\Services\\SeedService.cs",
+              "RelativeToolTip": "Service\\Services\\SeedService.cs",
+              "ViewState": "AgIAACgAAAAAAAAAAAAEwDUAAAAvAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-11-10T15:42:32.1Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 9,
+              "Title": "RestaurantAppDbContext.cs",
+              "DocumentMoniker": "D:\\Aly\\RestaurantApp\\Restaurant\\Data\\Contexts\\RestaurantAppDbContext.cs",
+              "RelativeDocumentMoniker": "Data\\Contexts\\RestaurantAppDbContext.cs",
+              "ToolTip": "D:\\Aly\\RestaurantApp\\Restaurant\\Data\\Contexts\\RestaurantAppDbContext.cs",
+              "RelativeToolTip": "Data\\Contexts\\RestaurantAppDbContext.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAoAAAAFAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-11-16T07:34:46.004Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "Program.cs",
+              "DocumentMoniker": "D:\\Aly\\RestaurantApp\\Restaurant\\API\\Program.cs",
+              "RelativeDocumentMoniker": "API\\Program.cs",
+              "ToolTip": "D:\\Aly\\RestaurantApp\\Restaurant\\API\\Program.cs",
+              "RelativeToolTip": "API\\Program.cs",
+              "ViewState": "AgIAAEkAAAAAAAAAAAAQwB0AAAAPAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-11-16T06:42:35.56Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "DiningTableDTO.cs",
+              "DocumentMoniker": "D:\\Aly\\RestaurantApp\\Restaurant\\Core\\DTOS\\DiningTableDTO.cs",
+              "RelativeDocumentMoniker": "Core\\DTOS\\DiningTableDTO.cs",
+              "ToolTip": "D:\\Aly\\RestaurantApp\\Restaurant\\Core\\DTOS\\DiningTableDTO.cs",
+              "RelativeToolTip": "Core\\DTOS\\DiningTableDTO.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAgAAABDAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-11-16T08:23:03.51Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 8,
+              "Title": "Restaurant.cs",
+              "DocumentMoniker": "D:\\Aly\\RestaurantApp\\Restaurant\\Core\\Entities\\Restaurant.cs",
+              "RelativeDocumentMoniker": "Core\\Entities\\Restaurant.cs",
+              "ToolTip": "D:\\Aly\\RestaurantApp\\Restaurant\\Core\\Entities\\Restaurant.cs",
+              "RelativeToolTip": "Core\\Entities\\Restaurant.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAUAAAAHAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-11-16T07:35:54.491Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 6,
+              "Title": "restaurant_branches.json",
+              "DocumentMoniker": "D:\\Aly\\RestaurantApp\\Restaurant\\Data\\SeedData\\restaurant_branches.json",
+              "RelativeDocumentMoniker": "Data\\SeedData\\restaurant_branches.json",
+              "ToolTip": "D:\\Aly\\RestaurantApp\\Restaurant\\Data\\SeedData\\restaurant_branches.json",
+              "RelativeToolTip": "Data\\SeedData\\restaurant_branches.json",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAUAAAAcAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001642|",
+              "WhenOpened": "2024-11-10T15:40:12.353Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 10,
+              "Title": "UserConfiguration.cs",
+              "DocumentMoniker": "D:\\Aly\\RestaurantApp\\Restaurant\\Data\\Config\\UserConfiguration.cs",
+              "RelativeDocumentMoniker": "Data\\Config\\UserConfiguration.cs",
+              "ToolTip": "D:\\Aly\\RestaurantApp\\Restaurant\\Data\\Config\\UserConfiguration.cs",
+              "RelativeToolTip": "Data\\Config\\UserConfiguration.cs",
+              "ViewState": "AgIAAAMAAAAAAAAAAAAAABUAAABMAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-11-16T07:59:17.455Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 11,
+              "Title": "TimeSlotConfiguration.cs",
+              "DocumentMoniker": "D:\\Aly\\RestaurantApp\\Restaurant\\Data\\Config\\TimeSlotConfiguration.cs",
+              "RelativeDocumentMoniker": "Data\\Config\\TimeSlotConfiguration.cs",
+              "ToolTip": "D:\\Aly\\RestaurantApp\\Restaurant\\Data\\Config\\TimeSlotConfiguration.cs",
+              "RelativeToolTip": "Data\\Config\\TimeSlotConfiguration.cs",
+              "ViewState": "AgIAAAMAAAAAAAAAAAAAABAAAAA+AAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-11-16T07:59:06.957Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 12,
+              "Title": "RestaurantConfiguration.cs",
+              "DocumentMoniker": "D:\\Aly\\RestaurantApp\\Restaurant\\Data\\Config\\RestaurantConfiguration.cs",
+              "RelativeDocumentMoniker": "Data\\Config\\RestaurantConfiguration.cs",
+              "ToolTip": "D:\\Aly\\RestaurantApp\\Restaurant\\Data\\Config\\RestaurantConfiguration.cs",
+              "RelativeToolTip": "Data\\Config\\RestaurantConfiguration.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABAAAAA8AAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-11-16T07:58:53.895Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 13,
+              "Title": "TimeSlot.cs",
+              "DocumentMoniker": "D:\\Aly\\RestaurantApp\\Restaurant\\Core\\Entities\\TimeSlot.cs",
+              "RelativeDocumentMoniker": "Core\\Entities\\TimeSlot.cs",
+              "ToolTip": "D:\\Aly\\RestaurantApp\\Restaurant\\Core\\Entities\\TimeSlot.cs",
+              "RelativeToolTip": "Core\\Entities\\TimeSlot.cs",
+              "ViewState": "AgIAAAMAAAAAAAAAAAAAAAoAAABhAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-11-16T07:44:41.408Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 14,
+              "Title": "DinningTableConfiguration.cs",
+              "DocumentMoniker": "D:\\Aly\\RestaurantApp\\Restaurant\\Data\\Config\\DinningTableConfiguration.cs",
+              "RelativeDocumentMoniker": "Data\\Config\\DinningTableConfiguration.cs",
+              "ToolTip": "D:\\Aly\\RestaurantApp\\Restaurant\\Data\\Config\\DinningTableConfiguration.cs",
+              "RelativeToolTip": "Data\\Config\\DinningTableConfiguration.cs",
+              "ViewState": "AgIAAAYAAAAAAAAAAAAAABIAAABkAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-11-16T07:58:06.65Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 15,
+              "Title": "DiningTable.cs",
+              "DocumentMoniker": "D:\\Aly\\RestaurantApp\\Restaurant\\Core\\Entities\\DiningTable.cs",
+              "RelativeDocumentMoniker": "Core\\Entities\\DiningTable.cs",
+              "ToolTip": "D:\\Aly\\RestaurantApp\\Restaurant\\Core\\Entities\\DiningTable.cs",
+              "RelativeToolTip": "Core\\Entities\\DiningTable.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAoAAABBAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-11-16T07:43:33.294Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 16,
+              "Title": "Reservation.cs",
+              "DocumentMoniker": "D:\\Aly\\RestaurantApp\\Restaurant\\Core\\Entities\\Reservation.cs",
+              "RelativeDocumentMoniker": "Core\\Entities\\Reservation.cs",
+              "ToolTip": "D:\\Aly\\RestaurantApp\\Restaurant\\Core\\Entities\\Reservation.cs",
+              "RelativeToolTip": "Core\\Entities\\Reservation.cs",
+              "ViewState": "AgIAAAMAAAAAAAAAAAAAwA4AAAAzAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-11-16T07:44:01.4Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 17,
+              "Title": "User.cs",
+              "DocumentMoniker": "D:\\Aly\\RestaurantApp\\Restaurant\\Core\\Entities\\User.cs",
+              "RelativeDocumentMoniker": "Core\\Entities\\User.cs",
+              "ToolTip": "D:\\Aly\\RestaurantApp\\Restaurant\\Core\\Entities\\User.cs",
+              "RelativeToolTip": "Core\\Entities\\User.cs",
+              "ViewState": "AgIAAAUAAAAAAAAAAAAxwBAAAAAzAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-11-16T07:48:14.28Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 18,
+              "Title": "RestaurantBranch.cs",
+              "DocumentMoniker": "D:\\Aly\\RestaurantApp\\Restaurant\\Core\\Entities\\RestaurantBranch.cs",
+              "RelativeDocumentMoniker": "Core\\Entities\\RestaurantBranch.cs",
+              "ToolTip": "D:\\Aly\\RestaurantApp\\Restaurant\\Core\\Entities\\RestaurantBranch.cs",
+              "RelativeToolTip": "Core\\Entities\\RestaurantBranch.cs",
+              "ViewState": "AgIAAAMAAAAAAAAAAAAAAAUAAAAHAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-11-16T07:37:37.935Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 19,
+              "Title": "appsettings.json",
+              "DocumentMoniker": "D:\\Aly\\RestaurantApp\\Restaurant\\API\\appsettings.json",
+              "RelativeDocumentMoniker": "API\\appsettings.json",
+              "ToolTip": "D:\\Aly\\RestaurantApp\\Restaurant\\API\\appsettings.json",
+              "RelativeToolTip": "API\\appsettings.json",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABoAAAAHAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001642|",
+              "WhenOpened": "2024-11-16T07:30:40.512Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 20,
+              "Title": "appsettings.Development.json",
+              "DocumentMoniker": "D:\\Aly\\RestaurantApp\\Restaurant\\API\\appsettings.Development.json",
+              "RelativeDocumentMoniker": "API\\appsettings.Development.json",
+              "ToolTip": "D:\\Aly\\RestaurantApp\\Restaurant\\API\\appsettings.Development.json",
+              "RelativeToolTip": "API\\appsettings.Development.json",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAUAAAAFAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001642|",
+              "WhenOpened": "2024-11-16T06:35:59.811Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 21,
+              "Title": "ExceptionHandlingMiddleware.cs",
+              "DocumentMoniker": "D:\\Aly\\RestaurantApp\\Restaurant\\API\\Middlewares\\ExceptionHandlingMiddleware.cs",
+              "RelativeDocumentMoniker": "API\\Middlewares\\ExceptionHandlingMiddleware.cs",
+              "ToolTip": "D:\\Aly\\RestaurantApp\\Restaurant\\API\\Middlewares\\ExceptionHandlingMiddleware.cs",
+              "RelativeToolTip": "API\\Middlewares\\ExceptionHandlingMiddleware.cs",
+              "ViewState": "AgIAABIAAAAAAAAAAAAYwCMAAAA3AAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-11-10T16:22:58.645Z"
+            }
+          ]
+        },
+        {
+          "DockedWidth": 200,
+          "SelectedChildIndex": -1,
+          "Children": [
+            {
+              "$type": "Bookmark",
+              "Name": "ST:1:0:{d212f56b-c48a-434c-a121-1c5d80b59b9f}"
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

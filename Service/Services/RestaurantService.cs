@@ -17,7 +17,7 @@ namespace Service.Services
         {
             var restaurants = await _restaurantRepository.GetRestaurantsAsync();
 
-            return restaurants.Select(r=>new RestaurantDTO(r.Id,r.Name,r.Address,r.Phone,r.Email,r.ImageUrl)).ToList();
+            return restaurants.Select(r=>new RestaurantDTO(r.Id,r.Name)).ToList();
         }
         public async Task<RestaurantBranchDTO> GetRestaurantBranchByRestaurantIdAsync(int restaurantId)
         {
